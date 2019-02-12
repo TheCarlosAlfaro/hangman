@@ -23,12 +23,12 @@ const Home = (_ => {
 
   const listeners = _ => {
     document.querySelector(".start").addEventListener("click", _ => {
-      Game.init();
       sound.click.play();
+      Game.init();
     });
     document.querySelector(".instructions").addEventListener("click", _ => {
-      How.init();
       sound.click.play();
+      How.init();
     });
   };
 
